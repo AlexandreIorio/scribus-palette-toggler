@@ -1,0 +1,64 @@
+{
+    "A_Background_1": {
+        "space": "RGB",
+        "R": 246,
+        "G": 248,
+        "B": 250
+    },
+    "A_Background_2": {
+        "space": "RGB",
+        "R": 255,
+        "G": 255,
+        "B": 255
+    },
+    "A_Text": {
+        "space": "RGB",
+        "R": 31,
+        "G": 35,
+        "B": 40
+    },
+    "A_Tree_Color2": {
+        "space": "RGB",
+        "R": 130,
+        "G": 170,
+        "B": 255
+    },
+    "A_Tree_Color3": {
+        "space": "RGB",
+        "R": 230,
+        "G": 0,
+        "B": 25
+    },
+    "A_Tree_color1": {
+        "space": "RGB",
+        "R": 255,
+        "G": 143,
+        "B": 0
+    },
+    "Aucune": {
+        "space": "RGB",
+        "R": 153,
+        "G": 102,
+        "B": 51
+    },
+    "Black": {
+        "space": "CMYK",
+        "C": 0.0,
+        "M": 0.0,
+        "Y": 0.0,
+        "K": 100.0
+    },
+    "FromSVG#ffffff": {
+        "space": "RGB",
+        "R": 255,
+        "G": 255,
+        "B": 255
+    },
+    "White": {
+        "space": "CMYK",
+        "C": 0.0,
+        "M": 0.0,
+        "Y": 0.0,
+        "K": 0.0
+    }
+}
