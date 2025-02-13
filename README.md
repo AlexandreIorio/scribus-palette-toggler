@@ -19,7 +19,7 @@ A Python utility to manage color themes in Scribus documents. This tool allows y
 
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/scribus-palette-toggler.git
+git clone https://github.com/AlexandreIorio/scribus-palette-toggler.git
 cd scribus-palette-toggler
 ```
 
