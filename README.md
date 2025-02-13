@@ -75,19 +75,3 @@ Themes are stored in JSON format with the following structure:
     }
 }
 ```
-
-## Features in Detail
-
-### Color Space Support
-- RGB color space with R, G, B values
-- CMYK color space with C, M, Y, K values
-
-### File Handling
-- Creates new files when applying themes (format: `originalname_themename.sla`)
-- Preserves original documents
-- Validates file existence and format
-
-### Error Handling
-- Comprehensive error messages for common issues
-- Validation of input files and theme format
-- Proper exit codes for script automation
