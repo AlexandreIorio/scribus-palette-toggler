@@ -7,7 +7,7 @@ from pathlib import Path
 
 def load_theme(theme_name: str) -> dict:
     """Load theme configuration from JSON file."""
-    theme_file = Path(f"{theme_name}.json")
+    theme_file = Path(f"{theme_name}")
     if not theme_file.exists():
         raise FileNotFoundError(f"Theme file {theme_file} not found")
     
@@ -56,7 +56,7 @@ def update_colors(sla_file: Path, theme: dict) -> Path:
     
     if modified:
         # Determine output file
-        output_file = sla_file.parent / f"{sla_file.stem}_{theme_name}{sla_file.suffix}"        
+        output_file = sla_file.parent / f"{sla_file.stem}_{theme_name.split(".")[-2]}{sla_file.suffix}"        
         # Save modified file
         tree.write(output_file, encoding='UTF-8', xml_declaration=True)
         return output_file
